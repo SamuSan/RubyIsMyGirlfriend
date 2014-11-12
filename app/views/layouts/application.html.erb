@@ -13,7 +13,6 @@
     <%= image_tag("logo.png") %>
     <%= @page_title || "Pragmatism Gone Awry" %>
   </div>
-
   <div id="columns">
     <div id="side">
       <ul>
@@ -21,8 +20,9 @@
         <li><a href="http://www....">Questions</a></li>
         <li><a href="http://www....">News</a></li>
         <li><a href="http://www....">Contact</a></li>
-      </ul>    
-    </div>
+      </ul>
+      <div><%= Time.now %></div>    
+    </div id="time">
   </div>
   <div id="main">
     <%= yield %>  
