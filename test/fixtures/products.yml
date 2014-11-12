@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+ruby:
+  title: Programmming gemstones
+  description: Is a ploody good description
+  image_url: gems.jpg
+  price: 9.99
