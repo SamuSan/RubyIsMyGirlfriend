@@ -29,7 +29,7 @@ class ProductTest < ActiveSupport::TestCase
   end
 
 	def new_product(image_url)
-		Product.new(title: "sdflkj",
+		Product.new(title: "sdflkjahsgdy",
 								description: "description",
 								price: 39.00,
 								image_url: image_url)
